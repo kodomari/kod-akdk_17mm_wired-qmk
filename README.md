@@ -1,4 +1,4 @@
-# kod-akdk_17mm QMK Firmware
+# kod-akdk_17mm_wired QMK Firmware
 
 RP2040-ONEを使用した分割式カスタムキーボード用のQMKファームウェアです。
 
