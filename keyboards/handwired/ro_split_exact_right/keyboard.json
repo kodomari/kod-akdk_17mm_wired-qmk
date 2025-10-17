@@ -4,7 +4,6 @@
     "maintainer": "you",
     "processor": "RP2040",
     "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x2040",
@@ -18,11 +17,6 @@
         "console": false,
         "encoder": true,
         "encoder_map": false
-    },
-    "encoder": {
-        "rotary": [
-            {"pin_a": "GP27", "pin_b": "GP28", "resolution": 2}
-        ]
     },
     "split": { 
         "enabled": true, 
