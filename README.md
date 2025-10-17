@@ -25,3 +25,5 @@ qmk compile -kb handwired/ro_split_exact_right -km right -e BUILD_DIR=/tmp/qmk_b
 # （right キーマップが無い場合は一時的に）
 # qmk compile -kb handwired/ro_split_exact_right -km left \
 #   -e OPT_DEFS+=-DMASTER_RIGHT -e BUILD_DIR=/tmp/qmk_build_right
+
+この場合uf2ファイルはDropboxでの影響を避けて/tmpにビルドされる
