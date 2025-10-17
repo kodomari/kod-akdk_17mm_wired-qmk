@@ -1,11 +1,12 @@
+// IMPORTANT:
+// Do NOT define MASTER_RIGHT here.
+// Build the right firmware with a compiler flag (-DMASTER_RIGHT) only.
+
 #pragma once
 
 #define MATRIX_ROWS 10
 #define MATRIX_COLS 8
 #define DIODE_DIRECTION COL2ROW
-
-// 右手マスター設定
-#define MASTER_RIGHT
 
 // 動作実績のある正確なピン設定
 #ifdef MASTER_RIGHT
